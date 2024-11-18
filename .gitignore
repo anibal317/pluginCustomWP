@@ -1,0 +1,15 @@
+# Ignorar todo por defecto
+*
+
+# Permitir el directorio custom-api
+!wp-content/plugins/custom-api
+!.gitignore
+
+
+# Permitir los archivos dentro del directorio custom-api
+!wp-content/plugins/custom-api/**
+
+# Ignorar todo dentro de uploads, themes, etc.
+wp-content/uploads/
+wp-content/themes/
+wp-content/languages/
