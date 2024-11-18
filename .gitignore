@@ -4,7 +4,7 @@
 # Permitir el directorio custom-api
 !wp-content/plugins/custom-api
 !.gitignore
-
+!readme.md
 
 # Permitir los archivos dentro del directorio custom-api
 !wp-content/plugins/custom-api/**
