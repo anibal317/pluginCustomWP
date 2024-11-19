@@ -3,6 +3,7 @@
 
 # Permitir el directorio custom-api
 !wp-content/plugins/custom-api
+!wp-content/plugins/custom-api/**
 !.gitignore
 !readme.md
 
