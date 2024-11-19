@@ -8,4 +8,9 @@ url: https://wordpress.org/download/releases/6-7/
     Ejemplo: C:\xampp\htdocs\wordpress
 2- Buscar la carpeta wp-content > plugins
 3- Colocar la carpeta 'custom-api' de este repo, junto con su archivo custom-api.php
-![Plugin Directory](wp-content/plugins/custom-api/docs/image.png)
+    ![Plugin Directory](wp-content/plugins/custom-api/docs/path_plugin.png)
+4- Activar el plugin
+    4.1- Entrar en la sección de plugins
+    ![Plugin Directory](wp-content/plugins/custom-api/docs/activa_plugin.png)
+5- Acceder al endpoint
+    Ejemplo: http://localhost/wordpress/wp-json/custom/v1/test
